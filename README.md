@@ -19,7 +19,7 @@ These examples showcase specific features of Opium, they do not demonstrate how 
 - [`simple_middleware`](./simple_middleware): How to implement a simple middleware
 - [`static_serve`](./static_serve): How to serve static content
 - [`user_auth`](./user_auth): How to implement a basic user authentication system
-dune exec hello_world.exe
+dune exec ./hello_world.exe
 dune exec ./exit_hook.exe
 dune exec ./file_upload.exe
 dune exec ./html_response.exe

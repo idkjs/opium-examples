@@ -3,7 +3,7 @@ open Opium;
 let () = {
   let static =
     Middleware.static_unix(
-      ~local_path="./example/static_serve/asset/",
+      ~local_path="./static_serve/asset/",
       ~uri_prefix="/",
       (),
     );
